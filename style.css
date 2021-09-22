@@ -82,7 +82,7 @@ hr {
   display: flex;
   margin-left: 40px;
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .info{
     text-align: center;
     display: block;
