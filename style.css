@@ -82,6 +82,13 @@ hr {
   display: flex;
   margin-left: 40px;
 }
+@media (max-width: 700px) {
+  .info{
+    text-align: center;
+    display: block;
+  }
+}
+}
 .btn {
   background-color: rgba(163, 170, 185, 0.7);
   color: #0f140e;
