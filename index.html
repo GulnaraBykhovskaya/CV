@@ -5,98 +5,150 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;500;800&family=Noto+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <table cellspacing="15">
-      <tr>
-        <td><img src="photo_CV.JPG" alt="My photo" width="150px" /></td>
+    <div class="container">
+      <div class="info">
+          <img class="avatar" src="photo_CV.JPG" alt="My photo" />
+        <div class="data"> 
+            <ul class="list">
+              <li><h1>Gulnara Bykhovskaya</h1></li>
+              <li>Israel, Hadera</li>
+              <li>
+                <a href="tel:+972-0533-98-55-30"></a>tel: +(972)-533-98-55-30
+              </li>
+              <li>
+                <a href="malito:bykhovskaya.buro@gmail.com" target="_blank"
+                  >e-mail: bykhovskaya.buro@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="skype:live:nara.galeeva"></a>skype: live:nara.galeeva
+              </li>
+            </ul>
+        </div>  
+        </div>
+      </div>
+    
+      <div class="card">
+        <h2>Web Developer</h2>
 
-        <td>
-          <h1>Gulnara Bykhovskaya</h1>
-          <ul>
-            <li>Israel, Hadera</li>
-            <li>
-              <a href="tel:+972-0533-98-55-30"></a>tel: (972)-533-98-55-30
-            </li>
-            <li>
-              <a href="malito:bykhovskaya.buro@gmail.com" target="_blank"
-                >e-mail: bykhovskaya.buro@gmail.com</a
-              >
-            </li>
-            <li>
-              <a href="skype:live:nara.galeeva"></a>skype: live:nara.galeeva
-            </li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-    <h2>Web Developer</h2>
-    <hr />
-    <p>
-      Junior Web developer able to build a Web presence from the ground up –
-      from concept, navigation, layout and programming to UX and SEO.
-    </p>
-    <p>
-      Skilled at writing well-designed, testable and efficient code using
-      current best practices in Web development.
-    </p>
-    <p>
-      Fast learner, hard workers and team player who is proficient in an array
-      of scripting languages and multimedia Web tools.
-    </p>
+        <p>
+          Junior Web developer able to build a Web presence from the ground up –
+          from concept, navigation, layout and programming to UX and SEO.
+        </p>
+        <p>
+          Skilled at writing well-designed, testable and efficient code using
+          current best practices in Web development.
+        </p>
+        <p>
+          Fast learner, hard workers and team player who is proficient in an
+          array of scripting languages and multimedia Web tools.
+        </p>
+      </div>
+      <div class="card">
+        <h2>Technical Tollbox</h2>
 
-    <h2>Technical Tollbox</h2>
-    <hr />
-    <table>
-      <tbody>
-        <tr>
-          <td><h4>Web Tools</h4></td>
-          <td>
-            <p>HTML, CSS, Java Script, SAS, Bootstrap, Foundation, React</p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
+        <table class="table">
+          <tbody>
+            <tr>
+              <td><h4>Web Tools:</h4></td>
+              <td>
+                <p>HTML, CSS, Java Script, SAS, Bootstrap, Foundation, React</p>
+              </td>
+            </tr>
+            <tr>
+              <td><h4>Adobe Creative Cloud:</h4></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card">
+        <h2>Education</h2>
 
-    <h2>Education</h2>
-    <hr />
-    <p>Kazan State Technological Univercity - Kazan, Russia</p>
-    <p>Chemical technology of high molecular weight compounds, Engineer</p>
-    <table>
-      <tbody>
-        <tr>
-          <th>Courses and Sertifications:</th>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h2>Web Development Experience</h2>
-    <hr />
-    <h2>Contact me</h2>
-    <hr />
-    <form>
-      <label for="name"
-        >Your name
-        <input class="name" type="text" placeholder="Input your name..." />
-      </label>
-      <br />
-      <label for="email"
-        >Your e-mail
-        <input type="email" class="e-mail" />
-      </label>
-      <br />
-      <label for="message"
-        >Your message
-        <br />
-        <textarea id="message" cols="30" rows="8"></textarea>
-      </label>
-      <br />
-      <input type="submit" value="Submit" />
-    </form>
+        <p>Kazan State Technological Univercity - Kazan, Russia</p>
+        <p>Chemical technology of high molecular weight compounds, Engineer</p>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td><h4>Courses and Sertifications:</h4></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <div style="height: 150px"></div>
+              </td>
+              <td>
+                <div style="height: 150px"></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card">
+        <h2>Web Development Experience</h2>
+
+        <div style="height: 150px"></div>
+      </div>
+      <div class="contact">
+        <h2>Contact me</h2>
+
+        <form>
+          <div class="row">
+            <div class="form-group">
+              <label for="name"
+                >Your name
+                <input
+                  class="name"
+                  type="text"
+                  placeholder="Input your name..."
+                  required
+                />
+              </label>
+            </div>
+            <div class="form-group">
+              <label for="email"
+                >Your e-mail
+                <input
+                  type="email"
+                  class="e-mail"
+                  placeholder="Input your e-mail..."
+                  required
+                />
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message"
+              >Your message
+              <br />
+              <textarea id="message" cols="30" rows="8" required></textarea>
+            </label>
+          </div>
+          
+            <input class='btn' type="submit" value="Submit" />
+          
+        </form>
+        <div class="position">
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+ 
+  
   </body>
 </html>
